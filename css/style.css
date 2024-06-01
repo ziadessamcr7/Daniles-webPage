@@ -1,0 +1,238 @@
+header{
+    background-image: url(../imgs/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+}
+header h2{
+    font-size: 50px;
+}
+header h1{
+    font-size: 30px;
+}
+header .social-icons div{
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.7) ;
+}
+.left-btn,
+.right-btn{
+    transition: all;
+    transition-duration: 0.5s;
+}
+#about-me .btn-box .left-btn:hover{
+    background-color: white !important;
+    color: black !important;
+}
+#about-me .btn-box .right-btn:hover{
+    background-color: rgb(29, 27, 27) !important;
+    color: white !important;
+}
+
+#about-me .info h4{
+    font-size: 17px; 
+}
+
+#services .container .icon{
+    background-color: #dddd;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+
+
+#services .icon:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#portfolio .gallery .pic{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#portfolio .gallery .pop-up-1{
+    width: 97%;
+    height: 97%;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: -97%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: all;
+    transition-duration: 0.5s;
+}
+#portfolio .gallery .pop-up-1 .two-icons div{
+    background-color: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    border: 1px solid black;
+    transition: all;
+    transition-duration: 0.5s;
+}
+#portfolio .gallery .pop-up-1 .two-icons div:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+#portfolio .gallery .pic:hover .pop-up-1{
+    bottom: 1.5%;
+}
+
+#our-team .pic {
+    position: relative;
+    overflow: hidden;
+}
+#our-team img{
+    transition-property: scale;
+    transition-duration: 0.7s;
+}
+#our-team .pic .pop-up-2{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 97%;
+    height: 97%;
+    bottom: -100%;   
+    transform-style: preserve-3d;
+    transition-duration: 0.7s;
+
+}
+#our-team .pic .pop-up-2 div{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 4px;
+    border: 1px solid black;
+}
+#our-team .pic .pop-up-2 div:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+#our-team .pic:hover div{
+    bottom: 1.5%;
+    transform: rotateY(180deg);
+}
+#our-team .pic:hover img{
+    scale: 1.2;
+}
+
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	
+
+    header h1{
+        font-size: 65px;
+        font-weight: 200;
+    }
+    
+    header .social-icons{
+        width: 30%;
+    }
+
+    .progress-bar div{
+        font-size: 14px;
+    }
+
+    #services h4{
+        font-size: 20px !important;
+        margin: 10px 0;
+    } 
+    #services p{
+        color: #1f1c1c;
+    }
+
+    #portfolio .menu-box{
+        font-size: 20px;
+        width: 40%;
+        margin: auto;
+        text-transform: capitalize;
+    }
+
+    #testimonials{
+        margin: 50px 0;
+    }
+    
+    #testimonials .hi{
+        height: 70vh;
+    }
+    #testimonials .pic img{
+        width: 150px !important;
+        height: 150px  !important;
+    }
+
+    #counter .icon{
+        font-size: 30px !important;
+    }
+    #counter h3{
+        font-size: 35px !important;
+        font-weight: 900 !important;
+    }
+
+    #our-team{
+        margin: 40px 0;
+    }
+    #our-team h4{
+        font-size: 25px !important;
+        text-transform: capitalize;
+        
+    }
+    
+    #our-team h3{
+        font-size: 20px !important;
+        font-weight: 700;
+    }
+
+    #contact .icon{
+        font-size: 25px;
+        width: 55px;
+        height: 55px;
+    }
+    #contact h4{
+        font-size: 20px;
+        font-weight: 800;
+        text-transform: capitalize;
+    }
+    #contact p{
+        font-size: 15px;
+        color: grey;
+    }
+}
+
+
+
+
+
+
+
+
+

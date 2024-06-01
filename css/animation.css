@@ -1,0 +1,168 @@
+header h1::after{
+    content: "|";
+    animation-name: typing;
+    animation-duration:7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes typing{
+    0%{
+        content: "D|";
+    }
+    2%{
+        content: "DE|";
+    }
+    4%{
+        content: "DEV|";
+    }
+    6%{
+        content: "DEVE|";
+    }
+    8%{
+        content: "DEVEL|";
+    }
+    10%{
+        content: "DEVELO|";
+    }
+    12%{
+        content: "DEVELOP|";
+    }
+    14%{
+        content: "DEVELOPE|";
+    }
+    16%{
+        content: "DEVELOPER|";
+    }
+    18%{
+        content: "DEVELOPE|";
+    }
+    20%{
+        content: "DEVELOP|";
+    }
+    22%{
+        content: "DEVELO|";
+    }
+    24%{
+        content: "DEVEL|";
+    }
+    26%{
+        content: "DEVE|";
+    }
+    28%{
+        content: "DEV|";
+    }
+    30%{
+        content: "DE|";
+    }
+    32%{
+        content: "D|";
+    }
+    34%{
+        content: "|";
+    }
+    36%{
+        content: "D|";
+    }
+    38%{
+        content: "DE|";
+    }
+    40%{
+        content: "DES|";
+    }
+    42%{
+        content: "DESI|";
+    }
+    44%{
+        content: "DESIN|";
+    }
+    46%{
+        content: "DESINE|";
+    }
+    48%{
+        content: "DESIGNER|";
+    }
+    50%{
+        content: "DESIGNE|";
+    }
+    52%{
+        content: "DESIGN|";
+    }
+    54%{
+        content: "DESIG|";
+    }
+    56%{
+        content: "DESI|";
+    }
+    58%{
+        content: "DES|";
+    }
+    60%{
+        content: "DE|";
+    }
+    62%{
+        content: "D|";
+    }
+    62%{
+        content: "|";
+    }
+    64%{
+        content: "L|";
+    }
+    66%{
+        content: "LA|";
+    }
+    68%{
+        content: "LAR|";
+    }
+    70%{
+        content: "LARR|";
+    }
+    72%{
+        content: "LARRY|";
+    }
+    74%{
+        content: "LARRY |";
+    }
+    76%{
+        content: "LARRY D|";
+    }
+    78%{
+        content: "LARRY DA|";
+    }
+    80%{
+        content: "LARRY DAN|";
+    }
+    82%{
+        content: "LARRY DANI|";
+    }
+    84%{
+        content: "LARRY DANIE|";
+    }
+    86%{
+        content: "LARRY DANIEL|";
+    }
+    88%{
+        content: "LARRY DANIELS|";
+    }
+    90%{
+        content: "LARRY DANIEL|";
+    }
+    92%{
+        content: "LARRY DANIE|";
+    }
+    94%{
+        content: "LARRY DANI|";
+    }
+    96%{
+        content: "LARRY DAN|";
+    }
+    98%{
+        content: "LARRY DA|";
+    }
+    100%{
+        content: "LARRY D|";
+    }
+
+}
